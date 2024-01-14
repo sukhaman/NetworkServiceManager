@@ -18,4 +18,5 @@ public struct HTTPClient {
   }
   public init()
   public func request<T>(_ url: Foundation.URL, decodingType: T.Type) -> Combine.AnyPublisher<T, NetworkServiceManager.HTTPClient.HTTPError> where T : Swift.Decodable
+  public func request(_ url: Foundation.URL) -> Combine.AnyPublisher<Swift.Void, NetworkServiceManager.HTTPClient.HTTPError>
 }
