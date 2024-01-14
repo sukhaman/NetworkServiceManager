@@ -1,0 +1,11 @@
+framework module NetworkServiceManager {
+  umbrella header "NetworkServiceManager.h"
+  export *
+
+  module * { export * }
+}
+
+module NetworkServiceManager.Swift {
+  header "NetworkServiceManager-Swift.h"
+  requires objc
+}
