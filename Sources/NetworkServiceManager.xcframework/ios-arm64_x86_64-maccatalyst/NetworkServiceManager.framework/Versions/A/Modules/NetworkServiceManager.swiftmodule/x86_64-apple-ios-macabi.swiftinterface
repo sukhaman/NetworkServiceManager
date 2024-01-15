@@ -14,7 +14,7 @@ public protocol HTTPClient {
   func request<T>(_ request: Foundation.URLRequest, decodingType: T.Type) -> Combine.AnyPublisher<T, NetworkServiceManager.HTTPError> where T : Swift.Decodable
   func request(_ request: Foundation.URLRequest) -> Combine.AnyPublisher<Swift.Void, NetworkServiceManager.HTTPError>
 }
-public struct NetworkManaager : NetworkServiceManager.HTTPClient {
+public struct NetworkManager : NetworkServiceManager.HTTPClient {
   public init()
   public func request<T>(_ request: Foundation.URLRequest, decodingType: T.Type) -> Combine.AnyPublisher<T, NetworkServiceManager.HTTPError> where T : Swift.Decodable
   public func request(_ request: Foundation.URLRequest) -> Combine.AnyPublisher<Swift.Void, NetworkServiceManager.HTTPError>
@@ -24,3 +24,24 @@ public enum HTTPError : Swift.Error {
   case requestFailed(any Swift.Error)
   case invalidResponse
 }
+public enum RequestMethod : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class RequestBuilder {
+  public static func getRequest(url: Foundation.URL) throws -> Foundation.URLRequest
+  public static func anyRequest<T>(url: Foundation.URL, anyObject: T, requestMethod: NetworkServiceManager.RequestMethod) throws -> Foundation.URLRequest where T : Swift.Encodable
+  public static func deleteRequest(url: Foundation.URL) -> Foundation.URLRequest
+  @objc deinit
+}
+extension NetworkServiceManager.RequestMethod : Swift.Equatable {}
+extension NetworkServiceManager.RequestMethod : Swift.Hashable {}
+extension NetworkServiceManager.RequestMethod : Swift.RawRepresentable {}

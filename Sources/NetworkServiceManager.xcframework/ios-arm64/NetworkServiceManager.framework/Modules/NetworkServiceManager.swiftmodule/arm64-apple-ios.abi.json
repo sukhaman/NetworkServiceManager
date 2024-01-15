@@ -133,8 +133,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "NetworkManaager",
-        "printedName": "NetworkManaager",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
         "children": [
           {
             "kind": "Constructor",
@@ -143,14 +143,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NetworkManaager",
-                "printedName": "NetworkServiceManager.NetworkManaager",
-                "usr": "s:21NetworkServiceManager0A8ManaagerV"
+                "name": "NetworkManager",
+                "printedName": "NetworkServiceManager.NetworkManager",
+                "usr": "s:21NetworkServiceManager0aC0V"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21NetworkServiceManager0A8ManaagerVACycfc",
-            "mangledName": "$s21NetworkServiceManager0A8ManaagerVACycfc",
+            "usr": "s:21NetworkServiceManager0aC0VACycfc",
+            "mangledName": "$s21NetworkServiceManager0aC0VACycfc",
             "moduleName": "NetworkServiceManager",
             "declAttributes": [
               "AccessControl"
@@ -201,8 +201,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NetworkServiceManager0A8ManaagerV7request_12decodingType7Combine12AnyPublisherVyxAA9HTTPErrorOG10Foundation10URLRequestV_xmtSeRzlF",
-            "mangledName": "$s21NetworkServiceManager0A8ManaagerV7request_12decodingType7Combine12AnyPublisherVyxAA9HTTPErrorOG10Foundation10URLRequestV_xmtSeRzlF",
+            "usr": "s:21NetworkServiceManager0aC0V7request_12decodingType7Combine12AnyPublisherVyxAA9HTTPErrorOG10Foundation10URLRequestV_xmtSeRzlF",
+            "mangledName": "$s21NetworkServiceManager0aC0V7request_12decodingType7Combine12AnyPublisherVyxAA9HTTPErrorOG10Foundation10URLRequestV_xmtSeRzlF",
             "moduleName": "NetworkServiceManager",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
@@ -243,8 +243,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NetworkServiceManager0A8ManaagerV7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
-            "mangledName": "$s21NetworkServiceManager0A8ManaagerV7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
+            "usr": "s:21NetworkServiceManager0aC0V7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
+            "mangledName": "$s21NetworkServiceManager0aC0V7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
             "moduleName": "NetworkServiceManager",
             "declAttributes": [
               "AccessControl"
@@ -253,8 +253,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:21NetworkServiceManager0A8ManaagerV",
-        "mangledName": "$s21NetworkServiceManager0A8ManaagerV",
+        "usr": "s:21NetworkServiceManager0aC0V",
+        "mangledName": "$s21NetworkServiceManager0aC0V",
         "moduleName": "NetworkServiceManager",
         "declAttributes": [
           "AccessControl"
@@ -445,6 +445,443 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkServiceManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestMethod",
+        "printedName": "RequestMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.RequestMethod.Type) -> NetworkServiceManager.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "NetworkServiceManager.RequestMethod",
+                    "usr": "s:21NetworkServiceManager13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "NetworkServiceManager.RequestMethod",
+                        "usr": "s:21NetworkServiceManager13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager13RequestMethodO3getyA2CmF",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO3getyA2CmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.RequestMethod.Type) -> NetworkServiceManager.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "NetworkServiceManager.RequestMethod",
+                    "usr": "s:21NetworkServiceManager13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "NetworkServiceManager.RequestMethod",
+                        "usr": "s:21NetworkServiceManager13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager13RequestMethodO4postyA2CmF",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO4postyA2CmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.RequestMethod.Type) -> NetworkServiceManager.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "NetworkServiceManager.RequestMethod",
+                    "usr": "s:21NetworkServiceManager13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "NetworkServiceManager.RequestMethod",
+                        "usr": "s:21NetworkServiceManager13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager13RequestMethodO3putyA2CmF",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO3putyA2CmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.RequestMethod.Type) -> NetworkServiceManager.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "NetworkServiceManager.RequestMethod",
+                    "usr": "s:21NetworkServiceManager13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "NetworkServiceManager.RequestMethod",
+                        "usr": "s:21NetworkServiceManager13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager13RequestMethodO5patchyA2CmF",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO5patchyA2CmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.RequestMethod.Type) -> NetworkServiceManager.RequestMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "NetworkServiceManager.RequestMethod",
+                    "usr": "s:21NetworkServiceManager13RequestMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.RequestMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RequestMethod",
+                        "printedName": "NetworkServiceManager.RequestMethod",
+                        "usr": "s:21NetworkServiceManager13RequestMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager13RequestMethodO6deleteyA2CmF",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO6deleteyA2CmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetworkServiceManager.RequestMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestMethod",
+                    "printedName": "NetworkServiceManager.RequestMethod",
+                    "usr": "s:21NetworkServiceManager13RequestMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NetworkServiceManager13RequestMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "NetworkServiceManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NetworkServiceManager13RequestMethodO8rawValueSSvp",
+            "mangledName": "$s21NetworkServiceManager13RequestMethodO8rawValueSSvp",
+            "moduleName": "NetworkServiceManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NetworkServiceManager13RequestMethodO8rawValueSSvg",
+                "mangledName": "$s21NetworkServiceManager13RequestMethodO8rawValueSSvg",
+                "moduleName": "NetworkServiceManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21NetworkServiceManager13RequestMethodO",
+        "mangledName": "$s21NetworkServiceManager13RequestMethodO",
+        "moduleName": "NetworkServiceManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RequestBuilder",
+        "printedName": "RequestBuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRequest",
+            "printedName": "getRequest(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NetworkServiceManager14RequestBuilderC03getD03url10Foundation10URLRequestVAF3URLV_tKFZ",
+            "mangledName": "$s21NetworkServiceManager14RequestBuilderC03getD03url10Foundation10URLRequestVAF3URLV_tKFZ",
+            "moduleName": "NetworkServiceManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "anyRequest",
+            "printedName": "anyRequest(url:anyObject:requestMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RequestMethod",
+                "printedName": "NetworkServiceManager.RequestMethod",
+                "usr": "s:21NetworkServiceManager13RequestMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NetworkServiceManager14RequestBuilderC03anyD03url0F6Object13requestMethod10Foundation10URLRequestVAH3URLV_xAA0dJ0OtKSERzlFZ",
+            "mangledName": "$s21NetworkServiceManager14RequestBuilderC03anyD03url0F6Object13requestMethod10Foundation10URLRequestVAH3URLV_xAA0dJ0OtKSERzlFZ",
+            "moduleName": "NetworkServiceManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteRequest",
+            "printedName": "deleteRequest(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NetworkServiceManager14RequestBuilderC06deleteD03url10Foundation10URLRequestVAF3URLV_tFZ",
+            "mangledName": "$s21NetworkServiceManager14RequestBuilderC06deleteD03url10Foundation10URLRequestVAF3URLV_tFZ",
+            "moduleName": "NetworkServiceManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NetworkServiceManager14RequestBuilderC",
+        "mangledName": "$s21NetworkServiceManager14RequestBuilderC",
+        "moduleName": "NetworkServiceManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       }
     ],
     "json_format_version": 8
@@ -453,30 +890,121 @@
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 794,
+      "offset": 793,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 800,
+      "offset": 799,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1661,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1668,
+      "offset": 1667,
       "length": 3,
       "value": "300"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1021,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/RequestBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1617,
+      "length": 2,
+      "value": "10"
     }
   ]
 }
