@@ -10,13 +10,17 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @available(iOS 13.0, *)
-public struct HTTPClient {
-  public enum HTTPError : Swift.Error {
-    case statusCode(Foundation.HTTPURLResponse)
-    case requestFailed(any Swift.Error)
-    case invalidResponse
-  }
+public protocol HTTPClient {
+  func request<T>(_ request: Foundation.URLRequest, decodingType: T.Type) -> Combine.AnyPublisher<T, NetworkServiceManager.HTTPError> where T : Swift.Decodable
+  func request(_ request: Foundation.URLRequest) -> Combine.AnyPublisher<Swift.Void, NetworkServiceManager.HTTPError>
+}
+public struct NetworkManaager : NetworkServiceManager.HTTPClient {
   public init()
-  public func request<T>(_ url: Foundation.URL, decodingType: T.Type) -> Combine.AnyPublisher<T, NetworkServiceManager.HTTPClient.HTTPError> where T : Swift.Decodable
-  public func request(_ url: Foundation.URL) -> Combine.AnyPublisher<Swift.Void, NetworkServiceManager.HTTPClient.HTTPError>
+  public func request<T>(_ request: Foundation.URLRequest, decodingType: T.Type) -> Combine.AnyPublisher<T, NetworkServiceManager.HTTPError> where T : Swift.Decodable
+  public func request(_ request: Foundation.URLRequest) -> Combine.AnyPublisher<Swift.Void, NetworkServiceManager.HTTPError>
+}
+public enum HTTPError : Swift.Error {
+  case statusCode(Foundation.HTTPURLResponse)
+  case requestFailed(any Swift.Error)
+  case invalidResponse
 }

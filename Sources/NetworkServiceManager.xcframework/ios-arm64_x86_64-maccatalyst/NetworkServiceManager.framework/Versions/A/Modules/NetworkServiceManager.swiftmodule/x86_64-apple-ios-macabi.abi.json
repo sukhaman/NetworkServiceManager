@@ -27,172 +27,115 @@
         "printedName": "HTTPClient",
         "children": [
           {
-            "kind": "TypeDecl",
-            "name": "HTTPError",
-            "printedName": "HTTPError",
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:decodingType:)",
             "children": [
               {
-                "kind": "Var",
-                "name": "statusCode",
-                "printedName": "statusCode",
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_1_0, NetworkServiceManager.HTTPError>",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(NetworkServiceManager.HTTPClient.HTTPError.Type) -> (Foundation.HTTPURLResponse) -> NetworkServiceManager.HTTPClient.HTTPError",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Foundation.HTTPURLResponse) -> NetworkServiceManager.HTTPClient.HTTPError",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HTTPError",
-                            "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                            "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HTTPURLResponse",
-                            "printedName": "Foundation.HTTPURLResponse",
-                            "usr": "c:objc(cs)NSHTTPURLResponse"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "NetworkServiceManager.HTTPClient.HTTPError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HTTPError",
-                            "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                            "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "NetworkServiceManager.HTTPError",
+                    "usr": "s:21NetworkServiceManager9HTTPErrorO"
                   }
                 ],
-                "declKind": "EnumElement",
-                "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO10statusCodeyAESo17NSHTTPURLResponseCcAEmF",
-                "mangledName": "$s21NetworkServiceManager10HTTPClientV9HTTPErrorO10statusCodeyAESo17NSHTTPURLResponseCcAEmF",
-                "moduleName": "NetworkServiceManager"
+                "usr": "s:7Combine12AnyPublisherV"
               },
               {
-                "kind": "Var",
-                "name": "requestFailed",
-                "printedName": "requestFailed",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(NetworkServiceManager.HTTPClient.HTTPError.Type) -> (Swift.Error) -> NetworkServiceManager.HTTPClient.HTTPError",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(Swift.Error) -> NetworkServiceManager.HTTPClient.HTTPError",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HTTPError",
-                            "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                            "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "NetworkServiceManager.HTTPClient.HTTPError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HTTPError",
-                            "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                            "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO13requestFailedyAEs5Error_pcAEmF",
-                "mangledName": "$s21NetworkServiceManager10HTTPClientV9HTTPErrorO13requestFailedyAEs5Error_pcAEmF",
-                "moduleName": "NetworkServiceManager"
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
               },
               {
-                "kind": "Var",
-                "name": "invalidResponse",
-                "printedName": "invalidResponse",
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(NetworkServiceManager.HTTPClient.HTTPError.Type) -> NetworkServiceManager.HTTPClient.HTTPError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "HTTPError",
-                        "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                        "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "NetworkServiceManager.HTTPClient.HTTPError.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "HTTPError",
-                            "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                            "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
                   }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO15invalidResponseyA2EmF",
-                "mangledName": "$s21NetworkServiceManager10HTTPClientV9HTTPErrorO15invalidResponseyA2EmF",
-                "moduleName": "NetworkServiceManager"
+                ]
               }
             ],
-            "declKind": "Enum",
-            "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO",
-            "mangledName": "$s21NetworkServiceManager10HTTPClientV9HTTPErrorO",
+            "declKind": "Func",
+            "usr": "s:21NetworkServiceManager10HTTPClientP7request_12decodingType7Combine12AnyPublisherVyqd__AA9HTTPErrorOG10Foundation10URLRequestV_qd__mtSeRd__lF",
+            "mangledName": "$s21NetworkServiceManager10HTTPClientP7request_12decodingType7Combine12AnyPublisherVyqd__AA9HTTPErrorOG10Foundation10URLRequestV_qd__mtSeRd__lF",
             "moduleName": "NetworkServiceManager",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "conformances": [
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : NetworkServiceManager.HTTPClient, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, T where Self : NetworkServiceManager.HTTPClient, T : Swift.Decodable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
               {
-                "kind": "Conformance",
-                "name": "Error",
-                "printedName": "Error",
-                "usr": "s:s5ErrorP",
-                "mangledName": "$ss5ErrorP"
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<(), NetworkServiceManager.HTTPError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "NetworkServiceManager.HTTPError",
+                    "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
               },
               {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
               }
-            ]
-          },
+            ],
+            "declKind": "Func",
+            "usr": "s:21NetworkServiceManager10HTTPClientP7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
+            "mangledName": "$s21NetworkServiceManager10HTTPClientP7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
+            "moduleName": "NetworkServiceManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetworkServiceManager.HTTPClient>",
+            "sugared_genericSig": "<Self where Self : NetworkServiceManager.HTTPClient>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21NetworkServiceManager10HTTPClientP",
+        "mangledName": "$s21NetworkServiceManager10HTTPClientP",
+        "moduleName": "NetworkServiceManager",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManaager",
+        "printedName": "NetworkManaager",
+        "children": [
           {
             "kind": "Constructor",
             "name": "init",
@@ -200,14 +143,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "HTTPClient",
-                "printedName": "NetworkServiceManager.HTTPClient",
-                "usr": "s:21NetworkServiceManager10HTTPClientV"
+                "name": "NetworkManaager",
+                "printedName": "NetworkServiceManager.NetworkManaager",
+                "usr": "s:21NetworkServiceManager0A8ManaagerV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21NetworkServiceManager10HTTPClientVACycfc",
-            "mangledName": "$s21NetworkServiceManager10HTTPClientVACycfc",
+            "usr": "s:21NetworkServiceManager0A8ManaagerVACycfc",
+            "mangledName": "$s21NetworkServiceManager0A8ManaagerVACycfc",
             "moduleName": "NetworkServiceManager",
             "declAttributes": [
               "AccessControl"
@@ -222,7 +165,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<τ_0_0, NetworkServiceManager.HTTPClient.HTTPError>",
+                "printedName": "Combine.AnyPublisher<τ_0_0, NetworkServiceManager.HTTPError>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -232,17 +175,17 @@
                   {
                     "kind": "TypeNominal",
                     "name": "HTTPError",
-                    "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                    "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
+                    "printedName": "NetworkServiceManager.HTTPError",
+                    "usr": "s:21NetworkServiceManager9HTTPErrorO"
                   }
                 ],
                 "usr": "s:7Combine12AnyPublisherV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
               },
               {
                 "kind": "TypeNominal",
@@ -258,8 +201,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NetworkServiceManager10HTTPClientV7request_12decodingType7Combine12AnyPublisherVyxAC9HTTPErrorOG10Foundation3URLV_xmtSeRzlF",
-            "mangledName": "$s21NetworkServiceManager10HTTPClientV7request_12decodingType7Combine12AnyPublisherVyxAC9HTTPErrorOG10Foundation3URLV_xmtSeRzlF",
+            "usr": "s:21NetworkServiceManager0A8ManaagerV7request_12decodingType7Combine12AnyPublisherVyxAA9HTTPErrorOG10Foundation10URLRequestV_xmtSeRzlF",
+            "mangledName": "$s21NetworkServiceManager0A8ManaagerV7request_12decodingType7Combine12AnyPublisherVyxAA9HTTPErrorOG10Foundation10URLRequestV_xmtSeRzlF",
             "moduleName": "NetworkServiceManager",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
@@ -276,7 +219,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<(), NetworkServiceManager.HTTPClient.HTTPError>",
+                "printedName": "Combine.AnyPublisher<(), NetworkServiceManager.HTTPError>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -286,22 +229,22 @@
                   {
                     "kind": "TypeNominal",
                     "name": "HTTPError",
-                    "printedName": "NetworkServiceManager.HTTPClient.HTTPError",
-                    "usr": "s:21NetworkServiceManager10HTTPClientV9HTTPErrorO"
+                    "printedName": "NetworkServiceManager.HTTPError",
+                    "usr": "s:21NetworkServiceManager9HTTPErrorO"
                   }
                 ],
                 "usr": "s:7Combine12AnyPublisherV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:21NetworkServiceManager10HTTPClientV7requesty7Combine12AnyPublisherVyytAC9HTTPErrorOG10Foundation3URLVF",
-            "mangledName": "$s21NetworkServiceManager10HTTPClientV7requesty7Combine12AnyPublisherVyytAC9HTTPErrorOG10Foundation3URLVF",
+            "usr": "s:21NetworkServiceManager0A8ManaagerV7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
+            "mangledName": "$s21NetworkServiceManager0A8ManaagerV7requesty7Combine12AnyPublisherVyytAA9HTTPErrorOG10Foundation10URLRequestVF",
             "moduleName": "NetworkServiceManager",
             "declAttributes": [
               "AccessControl"
@@ -310,13 +253,197 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:21NetworkServiceManager10HTTPClientV",
-        "mangledName": "$s21NetworkServiceManager10HTTPClientV",
+        "usr": "s:21NetworkServiceManager0A8ManaagerV",
+        "mangledName": "$s21NetworkServiceManager0A8ManaagerV",
         "moduleName": "NetworkServiceManager",
-        "intro_iOS": "13.0",
         "declAttributes": [
-          "AccessControl",
-          "Available"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "HTTPClient",
+            "printedName": "HTTPClient",
+            "usr": "s:21NetworkServiceManager10HTTPClientP",
+            "mangledName": "$s21NetworkServiceManager10HTTPClientP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkServiceManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPError",
+        "printedName": "HTTPError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.HTTPError.Type) -> (Foundation.HTTPURLResponse) -> NetworkServiceManager.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.HTTPURLResponse) -> NetworkServiceManager.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "NetworkServiceManager.HTTPError",
+                        "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPURLResponse",
+                        "printedName": "Foundation.HTTPURLResponse",
+                        "usr": "c:objc(cs)NSHTTPURLResponse"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "NetworkServiceManager.HTTPError",
+                        "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager9HTTPErrorO10statusCodeyACSo17NSHTTPURLResponseCcACmF",
+            "mangledName": "$s21NetworkServiceManager9HTTPErrorO10statusCodeyACSo17NSHTTPURLResponseCcACmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "requestFailed",
+            "printedName": "requestFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.HTTPError.Type) -> (Swift.Error) -> NetworkServiceManager.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> NetworkServiceManager.HTTPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "NetworkServiceManager.HTTPError",
+                        "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "NetworkServiceManager.HTTPError",
+                        "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager9HTTPErrorO13requestFailedyACs5Error_pcACmF",
+            "mangledName": "$s21NetworkServiceManager9HTTPErrorO13requestFailedyACs5Error_pcACmF",
+            "moduleName": "NetworkServiceManager"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkServiceManager.HTTPError.Type) -> NetworkServiceManager.HTTPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPError",
+                    "printedName": "NetworkServiceManager.HTTPError",
+                    "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkServiceManager.HTTPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPError",
+                        "printedName": "NetworkServiceManager.HTTPError",
+                        "usr": "s:21NetworkServiceManager9HTTPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NetworkServiceManager9HTTPErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s21NetworkServiceManager9HTTPErrorO15invalidResponseyA2CmF",
+            "moduleName": "NetworkServiceManager"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21NetworkServiceManager9HTTPErrorO",
+        "mangledName": "$s21NetworkServiceManager9HTTPErrorO",
+        "moduleName": "NetworkServiceManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       }
     ],
@@ -326,28 +453,28 @@
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 696,
+      "offset": 794,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 702,
+      "offset": 800,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1549,
+      "offset": 1662,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/spsingh\/Documents\/Code\/Framework\/NetworkServiceManager\/NetworkServiceManager\/NetworkServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1555,
+      "offset": 1668,
       "length": 3,
       "value": "300"
     }

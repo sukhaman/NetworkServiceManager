@@ -29,14 +29,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jgz+XlR1rZ+YBNt+7nHvYvgyhkGr5uqd3yYoaB6lQIk=
+			5oKgboqPJC4cunmfVnKu8y+WvaJdfCKWvxQtRV51Jw4=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2kHcYb9XSxjeRPKzSBXmx0nsm/CEdi78mnXzXrDuvA=
+			Js1S2wC1D5AgiTihseGCNLau9H45Q1T51SWvU+lFg10=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -50,28 +50,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2kHcYb9XSxjeRPKzSBXmx0nsm/CEdi78mnXzXrDuvA=
+			Js1S2wC1D5AgiTihseGCNLau9H45Q1T51SWvU+lFg10=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiXcBGrmfMgs3tLNrCxAzoQDGZYnTKRn9OBKlt0Njq4=
+			Ce1ZX2wPv120SIoS35DLgv+lGB+MfdNhWnIC6rz3gT0=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jgz+XlR1rZ+YBNt+7nHvYvgyhkGr5uqd3yYoaB6lQIk=
+			5oKgboqPJC4cunmfVnKu8y+WvaJdfCKWvxQtRV51Jw4=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o46cKvHdXft5+jesX6Luqt9HD2g4jk58goRRkEKRzJM=
+			KMOagX1k5h1Jh57W7vfMPSpsmO9q/bMItry4YKMnDpQ=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o46cKvHdXft5+jesX6Luqt9HD2g4jk58goRRkEKRzJM=
+			KMOagX1k5h1Jh57W7vfMPSpsmO9q/bMItry4YKMnDpQ=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			90MyvTbJr0O4NBmyaKTjhn2v93MHWnbDiRC770ILUrc=
+			lWnmz48MUEyFK0FK7CzJOPjko1ls95MN0qmtCZkEKo4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

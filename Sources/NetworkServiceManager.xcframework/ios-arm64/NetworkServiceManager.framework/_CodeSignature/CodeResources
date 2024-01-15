@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		B7E5t8iwiMntqr56UeRh/awRmLw=
+		LKnviZ0/3wGkW+ebV6pIFb0BkpM=
 		</data>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		b0W3LA9yxUlvF7N6nh5pOBKYEog=
+		rvmA97qPzpx1W2LBPXLfg4tE9SY=
 		</data>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		b0W3LA9yxUlvF7N6nh5pOBKYEog=
+		rvmA97qPzpx1W2LBPXLfg4tE9SY=
 		</data>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eY564VYCUOzG5WITe9HAF2O+S/4=
+		1N4U35/TBApWufBI/f+l84szc8o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jgz+XlR1rZ+YBNt+7nHvYvgyhkGr5uqd3yYoaB6lQIk=
+			5oKgboqPJC4cunmfVnKu8y+WvaJdfCKWvxQtRV51Jw4=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBGx8K2tuYtBOCddgUEVksWf0SplnVm0Vr0Qw3VK+Dw=
+			VcgKKfHJnI4gGLucZZdnmSE+0rEDhSp6g3iuZmEt5zA=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBGx8K2tuYtBOCddgUEVksWf0SplnVm0Vr0Qw3VK+Dw=
+			VcgKKfHJnI4gGLucZZdnmSE+0rEDhSp6g3iuZmEt5zA=
 			</data>
 		</dict>
 		<key>Modules/NetworkServiceManager.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/JRe3ReDD9uYOpznc7GYa5Cr+lwvfQZsVvqDSRBFGI=
+			LniZWDA3lKDvFFgdj9+JBZcIIbBVbbYFeAiOcyy5gW4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
